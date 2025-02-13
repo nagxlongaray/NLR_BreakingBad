@@ -1,9 +1,11 @@
 
+/*CONFIGURACIÓN FUENTE EXTERNA: BREAKING BAD*/
 @font-face {
     font-family: 'Breaking Bad';
     src: url('../fonts/Breaking\ Bad.ttf') format('truetype');
 }
 
+/*STYLE: index.html*/
 body{
     background: url(../img/fondo.jpg) no-repeat center center fixed; 
     background-size: cover;
@@ -23,4 +25,22 @@ body{
     height: 300px;
     border: 10px outset brown;
     border-radius: 22px;
+}
+
+/*STYLE: tabla.html*/
+.pagina_tabla{
+    background-color: #0c3e11; 
+    font-family: Helvetica, sans-serif; 
+    font-size: 14px; 
+}
+
+/*STYLE: formiulario.html*/
+.formulario{
+    font-family: Helvetica, sans-serif;
+    font-size: 10px;
+
+}
+
+#titulo_formulario{
+    font-size: 14px;
 }

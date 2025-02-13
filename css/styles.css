@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: 'Breaking Bad';
+    src: url('../fonts/Breaking\ Bad.ttf') format('truetype');
+}
+
+body{
+    background: url(../img/fondo.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    font-family: 'Breaking Bad', Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+.poster{
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+}

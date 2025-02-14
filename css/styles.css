@@ -60,3 +60,4 @@ body:not(.pagina_verde):not(index){
     text-align: center; /*Centra el texto en las celdas*/
     border: 1px solid black; /*Establece el borde negro*/
 }
+

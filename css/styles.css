@@ -1,13 +1,20 @@
 
-/*CONFIGURACIÓN FUENTE EXTERNA: BREAKING BAD*/
-@font-face {
-    font-family: 'Breaking Bad';
-    src: url('../fonts/Breaking\ Bad.ttf') format('truetype');
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-/*STYLE: index.html*/
-body{
-    background: url(../img/fondo.jpg) no-repeat center center fixed; 
+/*CONFIGURACIÓN FUENTE: BRAKING BAD*/
+
+@font-face {
+    font-family: 'Breaking Bad';
+    src: url('../fonts/Breaking\ Bad.ttf');
+}
+
+/*FONDO Y FUENTE PARA index.html*/
+body.index {
+    background: url(../img/fondo.jpg);
     background-size: cover;
     font-family: 'Breaking Bad', Helvetica, sans-serif;
     color: white;
@@ -15,32 +22,41 @@ body{
     font-size: 26px;
 }
 
-.logo{
-    width: 200px;
-    height: 200px;
-}
+/*FUENTE PARA LAS DEMÁS PÁFINAS*/
 
-.poster{
-    width: 700px;
-    height: 300px;
-    border: 10px outset brown;
-    border-radius: 22px;
-}
-
-/*STYLE: tabla.html*/
-.pagina_tabla{
-    background-color: #0c3e11; 
-    font-family: Helvetica, sans-serif; 
-    font-size: 14px; 
-}
-
-/*STYLE: formiulario.html*/
-.formulario{
+body:not(index){
     font-family: Helvetica, sans-serif;
-    font-size: 10px;
-
+    color: white;
+    text-align: center;
+    font-size: 14 px;
 }
 
-#titulo_formulario{
-    font-size: 14px;
+/*FONDO VERDE PARA tabla.html*/
+
+.pagina_verde{
+    background-color: #0c3e11;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/*FONDO DE IMAGEN PARA formulario.html Y OTRAS PAGINAS (menos tabla.html)*/
+body:not(.pagina_verde):not(index){
+    background: url(../img/fondo.jpg);
+    background-size: cover;
+}
+
+/*CONFIGURACIÓN DE LA TABLA*/
+
+.tabla{
+    margin: 0 auto; /*Centra la tabla horizontalmente*/
+    border-collapse: 1px; /*Elimina los espacios entre celdas*/
+    width: 80%;
+    border: 1px solid black;
+}
+
+.tabla th, .tabla td{
+    padding: 10px; /*Agrega espeacio entre las celdas*/
+    text-align: center; /*Centra el texto en las celdas*/
+    border: 1px solid black; /*Establece el borde negro*/
 }

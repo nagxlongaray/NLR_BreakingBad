@@ -19,8 +19,18 @@ body.index {
     font-family: 'Breaking Bad', Helvetica, sans-serif;
     color: white;
     text-align: center;
-    font-size: 26px;
+    font-size: 32px;
 }
+
+.poster {
+    width: 700px;  /* Ancho especificado */
+    height: 300px; /* Alto especificado */
+    border: 10px outset brown; /* Borde con grosor y color */
+    border-radius: 22px; /* Esquinas redondeadas */
+    display: block; /* Asegura que no haya espacios adicionales */
+    margin: 20px auto; /* Centra la imagen en la página */
+}
+
 
 /*FUENTE PARA LAS DEMÁS PÁFINAS*/
 
@@ -51,12 +61,12 @@ body:not(.pagina_verde):not(index){
 
 .tabla1{
     margin: 0 auto;
-    width: 700px; /* Aumentar el tamaño de la tabla1 */
-    height: auto; /* Ajuste automático de altura según el contenido */
+    width: 700px; 
+    height: auto; 
     background-color: #2b2c24;
     border-spacing: 10px;
     border-collapse: separate;
-    table-layout: auto; /* Asegura que las celdas se ajusten al contenido */
+    table-layout: auto; 
 }
 
 
@@ -64,19 +74,20 @@ body:not(.pagina_verde):not(index){
     padding: 10px;
     text-align: center;
     vertical-align: middle;
-    overflow: hidden; /* Evita que el contenido se desborde fuera de la celda */
-    max-width: 100px; /* Limita el tamaño máximo de las celdas para evitar que se expandan demasiado */
+    overflow: hidden; 
+    width: 40px;
+    height: 40px;
 }
 
 
 .tabla2{
     margin: 0 auto;
-    width: 500px; /* Reducir el tamaño de la tabla2 */
-    height: auto; /* Ajuste automático de altura según el contenido */
+    width: 500px; 
+    height: auto; 
     background-color: #2b2c24;
     border-spacing: 10px;
     border-collapse: separate;
-    table-layout: auto; /* Asegura que las celdas se ajusten al contenido */
+    table-layout: auto;
 }
 
 
@@ -85,7 +96,8 @@ body:not(.pagina_verde):not(index){
     text-align: center;
     vertical-align: middle;
     overflow: hidden; /* Evita que el contenido se desborde fuera de la celda */
-    max-width: 90px; /* Limita el tamaño máximo de las celdas para evitar que se expandan demasiado */
+    width: 40px;
+    height: 40px;
 }
 
 

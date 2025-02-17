@@ -46,18 +46,101 @@ body:not(.pagina_verde):not(index){
     background-size: cover;
 }
 
-/*CONFIGURACIÓN DE LA TABLA*/
+/*CONFIGURACIÓN DE LA TABLAS*/
 
-.tabla{
-    margin: 0 auto; /*Centra la tabla horizontalmente*/
-    border-collapse: 1px; /*Elimina los espacios entre celdas*/
-    width: 80%;
-    border: 1px solid black;
+
+.tabla1{
+    margin: 0 auto;
+    width: 700px; /* Aumentar el tamaño de la tabla1 */
+    height: auto; /* Ajuste automático de altura según el contenido */
+    background-color: #2b2c24;
+    border-spacing: 10px;
+    border-collapse: separate;
+    table-layout: auto; /* Asegura que las celdas se ajusten al contenido */
 }
 
-.tabla th, .tabla td{
-    padding: 10px; /*Agrega espeacio entre las celdas*/
-    text-align: center; /*Centra el texto en las celdas*/
-    border: 1px solid black; /*Establece el borde negro*/
+
+.tabla1 td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden; /* Evita que el contenido se desborde fuera de la celda */
+    max-width: 100px; /* Limita el tamaño máximo de las celdas para evitar que se expandan demasiado */
 }
+
+
+.tabla2{
+    margin: 0 auto;
+    width: 500px; /* Reducir el tamaño de la tabla2 */
+    height: auto; /* Ajuste automático de altura según el contenido */
+    background-color: #2b2c24;
+    border-spacing: 10px;
+    border-collapse: separate;
+    table-layout: auto; /* Asegura que las celdas se ajusten al contenido */
+}
+
+
+.tabla2 td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden; /* Evita que el contenido se desborde fuera de la celda */
+    max-width: 90px; /* Limita el tamaño máximo de las celdas para evitar que se expandan demasiado */
+}
+
+
+.texto{
+    font-family: Helvetica, sans-serif;
+}
+
+.abrev{
+    font-size: 34px;
+    font-weight: bold;
+    color: black;
+}
+
+.nombre{
+    font-size: 10px;
+    color: black;
+}
+
+.elemento1{
+    background-color: #b3dc39;
+}
+.tabla1 .elemento2{
+    background-color: #2b2c24;
+}
+
+.elemento3{
+    background-color: #818f5a;
+}
+
+.elemento4{
+    background-color: #bac59c;
+}
+
+.elemento5{
+    background-color: #ebf9c4;
+}
+.elemento6{
+    background-color: #85a724;
+}
+
+.elemento7{
+    background-color: #5f7229;
+}
+
+.elemento8{
+    background-color: #b28cd3;
+}
+
+.elemento9{
+    background-color: #c1e458;
+}
+
+.elemento10{
+    background-color: #becb32;
+}
+
+
 
